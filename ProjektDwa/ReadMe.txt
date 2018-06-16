@@ -1,25 +1,33 @@
-========================================================================
-    Fortran Console Application : "ProjektDwa" Project Overview
-========================================================================
+# Matrix multiplication
+The 2nd project for Fortran lab
 
-The Intel Fortran Console Application Wizard has created this 
-"ProjektDwa" project for you as a starting point.
 
-This file contains a summary of what you will find in each of the files 
-that make up your project.
 
-ProjektDwa.vfproj
-    This is the main project file for Fortran projects generated using an 
-    Application Wizard.  It contains information about the version of 
-    Intel Fortran that generated the file, and information about the 
-    platforms, configurations, and project features selected with the 
-    Application Wizard.
+## MAIN
 
-ProjektDwa.f90
-    This is the main source file for the Fortran Console application. 
-    It contains the program entry point.
+### to compile
 
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
+```
+make build
+```
 
-/////////////////////////////////////////////////////////////////////////////
+### modes
+
+1 simple
+
+2 simple + dot_product
+
+3 ichunk
+
+4 ichunk + dot_product
+
+5 matmul
+
+
+## TESTS
+Failed to add PFUnit library, so test are in additional module tests without PFUnit
+### to run
+
+```
+make test
+```
